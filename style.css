@@ -1,10 +1,26 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
 }
 h1{
-    font-size: 50;
+    font-size: 500;
 }
-#nebo-font{
-    font-family: 'Bebas Neue', cursive;
-
+section{
+    height: 500px;
+}
+.name-highlight{
+    color: coral;
+}
+.paragraph-font{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
 }
