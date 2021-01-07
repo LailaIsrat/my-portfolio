@@ -3,7 +3,31 @@ body{
     
     color: #363958;
     margin: 0;
+    
 }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:grey;
+    font-weight: bold;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
 h1{
     font-size: 50px;
 }
@@ -12,8 +36,10 @@ h2{
 }
 
 section{
-    height: 500px;
-    padding-bottom: 180px;
+    height: 550px;
+    padding-bottom: 150px;
+    margin-top: 50px;
+    
 }
 .name-highlight{
     color: coral;
@@ -33,11 +59,11 @@ section{
     width: 100%;
 }
 .link-button{
-    border: 2px solid tomato;
-    padding: 10px,80px;
-    background-image: linear-gradient(45deg,tomato, lightSalmon ,);
+    background-image: linear-gradient(45deg,tomato, lightSalmon);
     text-decoration: none;
-    border-radius: 3px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
     color: white;
     font-weight: 700;
 
@@ -45,69 +71,79 @@ section{
 .background{
     background-color: #e6e6e6;
     background-repeat: no-repeat;
-    height: 500px;
-    padding-bottom: 10px;
-}
-.background half-width{
-    width: 25%;
-    float: left;
-    padding: 2%;
-    margin-left: 5%;
-    box-shadow:10px 10px 40px  #e6e6e6 ;
-    border-radius: 10px;
-    height: 80%;
-
-
+    height: 600px;
 }
 .background h2{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 15px;
+    
 }
-.background img{
+
+.test{
+    width: 20%;
+    float: left;
+    margin-top: 70px;
+    margin: 3%;
+    padding: 3%;
+}
+.test img{
     height: 200px;
     width: 300px;
     margin-right: 5px;
 }
+.shadow{
+    box-shadow:10px 10px 40px gray;
+    border-radius: 10px;
+}
 .inquery-margin{
     background: url(images/Group_33094_1.png);
+    background-size: 800px 200px;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 200px;
+    height: 140px;
     padding-bottom:50px ;
-    margin-top: 100px;
+    
 }
 .inquery-margin h1{
-    
+    text-align: left;
     color:white;
     position: relative;
     font-weight: 700;
-    font-size: 50px;
-    padding-left: 200px;
+    font-size: 40px;
+    padding-left: 400px;
+    padding-top: 60px;
 
 }
-.inquery-margin link-button{
+.chat-button{
 
-    background-image: linear-gradient(45deg,tomato, lightSalmon ,);
+    background-image: linear-gradient(45deg,tomato, lightSalmon);
     text-decoration: none;
+    left: 900px;
     position: relative;
-    left: 800px;
-    padding: 10px,20px;
-    border-radius: 5px;
+    padding: 15px 30px;
+    bottom: 65px;
+    border-radius: 7px;
     color: white;
     font-weight: 700;
 
 }
 .footer{
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    margin-top: 60px;
     text-align: center;
+    color: tomato;
     padding: 50px;
-    color: cornsilk;
     font-weight: 700;
     height: 180px;
 }
+#small{
+    font-size: 9px;
+}
 .footer img{
     
-    float: left;
+    float: inline;
     height: 50px;
     width: 50px;
 }
