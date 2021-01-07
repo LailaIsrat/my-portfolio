@@ -10,16 +10,10 @@ h1{
 h2{
     font-size: 35px;
 }
-footer p{
-    float: left;
-    text-align: center;
-    height: 40px;
-    width: 40px;
-}
 
 section{
     height: 500px;
-    padding-bottom: 200px;
+    padding-bottom: 180px;
 }
 .name-highlight{
     color: coral;
@@ -43,9 +37,7 @@ section{
     padding: 10px,80px;
     background-image: linear-gradient(45deg,tomato, lightSalmon ,);
     text-decoration: none;
-    background-color: tomato;
     border-radius: 3px;
-    font-size: 10px;
     color: white;
     font-weight: 700;
 
@@ -53,35 +45,69 @@ section{
 .background{
     background-color: #e6e6e6;
     background-repeat: no-repeat;
+    height: 500px;
+    padding-bottom: 10px;
+}
+.background half-width{
+    width: 25%;
+    float: left;
+    padding: 2%;
+    margin-left: 5%;
+    box-shadow:10px 10px 40px  #e6e6e6 ;
+    border-radius: 10px;
+    height: 80%;
+
+
 }
 .background h2{
     text-align: center;
     padding-top: 50px;
 }
+.background img{
+    height: 200px;
+    width: 300px;
+    margin-right: 5px;
+}
 .inquery-margin{
+    background: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    padding-bottom:50px ;
     margin-top: 100px;
 }
-.inquery{
-    background: url(images/Group_33094_1.png);
-    background-color: #cccccc;
-    background-position: center;
+.inquery-margin h1{
+    
+    color:white;
     position: relative;
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 100%;
-    margin-left:25% ;
-    margin-right: 25%;
-    padding: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 200px;
 
 }
-.inquery1{
-    background: url(images/Group_33094_1.png);
-    background-repeat: no-repeat;
-    margin: 40px,10px;
-    padding: 30px;
+.inquery-margin link-button{
+
+    background-image: linear-gradient(45deg,tomato, lightSalmon ,);
+    text-decoration: none;
+    position: relative;
+    left: 800px;
+    padding: 10px,20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 
 }
-.footer-img{
+.footer{
+    text-align: center;
+    padding: 50px;
+    color: cornsilk;
+    font-weight: 700;
+    height: 180px;
+}
+.footer img{
     
     float: left;
+    height: 50px;
+    width: 50px;
 }
